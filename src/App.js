@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {Provider} from "react-redux";
+import store from "./Store/Store";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// page
+import Home from "./Home/Home";
+import OnlineProduct from "./OnlineProduct/index";
+import List from "./List/List";
+import Paid from "./Paid/Paid";
+import Login from "./Login";
+
+class App extends Component {
+ 
+  render() {
+    return (
+      <Router>
+
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <Link to="/Home" class="navbar-brand">IPTV</Link>
+      <Link to="/Paid" class="navbar-brand">Paid</Link>
+      <Link to="/List" class="navbar-brand">ChannelList</Link>
+
+    </nav>
+
+
+<Route path="/" component={Home} exact />
+<Route path="/Home" component={Home} exact />
+<Route path="/List" component={List} exact />
+<Route path="/List/:id" component={OnlineProduct} exact />
+<Route path="/Paid" component={Paid} exact />
+<Route path="/Login" component={Login} exact />
+
+
+
+</Router>
+
+    );
+  }
 }
 
-export default App;
+function AppWithStore(){
+  return <Provider store={store}>
+    <App />
+  </Provider>
+}
+
+export default AppWithStore;
