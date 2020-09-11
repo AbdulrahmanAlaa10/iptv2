@@ -26,7 +26,12 @@ export default function ContactUs() {
                               <input type="email" className="backk form-control" placeholder="Email Address" name="email" />
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
-                              <input type="text" className="backk form-control" placeholder="Subject" name="subject" />
+                          <input type="text" className="backk form-control" placeholder="00x xxxxxxxxxxx" name="phone" />
+
+                          </div>
+                          <div className="col-8 form-group pt-2 mx-auto">
+                          <input type="text" className="backk form-control" placeholder="country" name="country" />
+
                           </div>
                           <div className="col-8 form-group pt-2 mx-auto">
                               <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
