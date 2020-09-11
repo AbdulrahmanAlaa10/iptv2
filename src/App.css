@@ -37,16 +37,20 @@ body {
 }
 /* header */
 header {
-  background: url('./Video/pexels-johnmark-smith-2726370.jpg') no-repeat center center fixed;
-  width: 100%;
-  height: 600px;
-  opacity: 0.9 
+  background: url('./Video/pexels-cottonbro-4009398.jpg') no-repeat center center fixed;
+  min-height: 600px;
+
+}
+header .header1 {
+  background: rgb(0 0 0 / 39%);
+  color: rgb(255, 255, 255);
+  min-height: 600px;
 
 }
 .Quiz {
   color: white;
   text-align: center;
-  width: 70%;
+  width: 71%;
   margin: 0 auto 30px auto;
 }
 .Quiz:hover{
@@ -96,7 +100,7 @@ header {
   padding-top: 17%;
   color: white;
   text-align: center;
-  width: 70%;
+  width: 75%;
   margin: 0 auto 30px auto;
 }
 .hhh:hover{
@@ -144,7 +148,7 @@ header {
 }
 .bttn {
   font-size: 20px;
-  margin-left: 46%;
+  margin-left: 44%;
   margin-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
@@ -214,7 +218,14 @@ header {
 /* our quzis */
 .sece {
   background: url('./Video/pexels-johnmark-smith-2726370.jpg') no-repeat center center fixed;
-  width: 100%;
+  min-height: 600px;
+
+}
+.sece .hhhhhh {
+  background: rgb(0 0 0 / 68%);
+  color: rgb(255, 255, 255);
+  min-height: 600px;
+
 }
 .hshow {
   font-size: 41px;
@@ -290,10 +301,15 @@ header {
 
 /* informtion */
 .informtion {
-  background: url('./Video/pexels-johnmark-smith-2726370.jpg') no-repeat center center fixed;
+  background: url('./Video/pexels-cottonbro-4009398.jpg') no-repeat center center fixed;
   width: 100%;
-  height: 1000px;
-  opacity: 0.9 
+  height: 800px;
+}
+
+.informtion .infoooor{
+  background: rgb(0 0 0 / 39%);
+  color: rgb(255, 255, 255);
+  min-height: 800px;
 }
 .informtion .inforh1 .inforh2{
   color: white;
@@ -301,7 +317,7 @@ header {
   font-size: 28px;
 }
 .informtion .inforh1 .inforh2:hover{
-  color: #ff4f4f;
+  color: white;
 
 }
 
@@ -312,7 +328,7 @@ header {
     font-size: 20px;
   }
   .informtion .inforh1 .inforh2:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -323,7 +339,7 @@ header {
     font-size: 24px;
   }
   .informtion .inforh1 .inforh2:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -333,7 +349,7 @@ header {
   font-size: 24px;
 }
 .informtion .inforh1 .inforh3:hover{
-  color: #ff4f4f;
+  color: white;
 
 }
 @media (max-width: 576px) {
@@ -343,7 +359,7 @@ header {
     font-size: 18px;
   }
   .informtion .inforh1 .inforh3:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -354,7 +370,7 @@ header {
     font-size: 20px;
   }
   .informtion .inforh1 .inforh3:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -366,7 +382,7 @@ header {
 
 }
 .informtion .inforh1 .inforp:hover{
-  color: #ff4f4f;
+  color: white;
 }
 @media (max-width: 576px) {
   .informtion .inforh1 .inforp{
@@ -377,7 +393,7 @@ header {
   
   }
   .informtion .inforh1 .inforp:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 .informtion .inforh1 .inforhh2{
@@ -386,7 +402,7 @@ header {
   font-size: 28px;
 }
 .informtion .inforh1 .inforhh2:hover{
-  color: #ff4f4f;
+  color: white;
 
 }
 @media (max-width: 576px) {
@@ -396,7 +412,7 @@ header {
     font-size: 22px;
   }
   .informtion .inforh1 .inforhh2:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -407,7 +423,7 @@ header {
     font-size: 24px;
   }
   .informtion .inforh1 .inforhh2:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -423,7 +439,7 @@ header {
 
 }
 .informtion .inforh1 .inforp1:hover{
-  color: #ff4f4f;
+  color: white;
 }
 @media (max-width: 576px) {
   .informtion .inforh1 .inforp1{
@@ -438,7 +454,7 @@ header {
   
   }
   .informtion .inforh1 .inforp1:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -454,7 +470,7 @@ header {
   
   }
   .informtion .inforh1 .inforp1:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 @media (min-width: 768px) and (max-width: 992px){
@@ -470,7 +486,7 @@ header {
   
   }
   .informtion .inforh1 .inforp1:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 .informtion .inforh1 .inforhh3{
@@ -479,7 +495,7 @@ header {
   font-size: 28px;
 }
 .informtion .inforh1 .inforhh3:hover{
-  color: #ff4f4f;
+  color: white;
 
 }
 @media (max-width: 576px) {
@@ -489,7 +505,7 @@ header {
     font-size: 22px;
   }
   .informtion .inforh1 .inforhh3:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -500,7 +516,7 @@ header {
     font-size: 25px;
   }
   .informtion .inforh1 .inforhh3:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -516,7 +532,7 @@ header {
 
 }
 .informtion .inforh1 .inforp2:hover{
-  color: #ff4f4f;
+  color: white;
 }
 @media (max-width: 576px) {
   .informtion .inforh1 .inforp2{
@@ -531,7 +547,7 @@ header {
   
   }
   .informtion .inforh1 .inforp2:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -547,7 +563,7 @@ header {
   
   }
   .informtion .inforh1 .inforp2:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 @media (min-width: 768px) and (max-width: 992px){
@@ -563,7 +579,7 @@ header {
   
   }
   .informtion .inforh1 .inforp2:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 .informtion .inforh1 .inforhh4{
@@ -572,7 +588,7 @@ header {
   font-size: 28px;
 }
 .informtion .inforh1 .inforhh4:hover{
-  color: #ff4f4f;
+  color: white;
 
 }
 @media (max-width: 576px) {
@@ -582,7 +598,7 @@ header {
     font-size: 22px;
   }
   .informtion .inforh1 .inforhh4:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -593,7 +609,7 @@ header {
     font-size: 24px;
   }
   .informtion .inforh1 .inforhh4:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -606,7 +622,7 @@ header {
 
 }
 .informtion .inforh1 .inforp3:hover{
-  color: #ff4f4f;
+  color: white;
 }
 @media (max-width: 576px) {
   .informtion .inforh1 .inforp3{
@@ -616,7 +632,7 @@ header {
     margin-bottom: 25px;
   }
   .informtion .inforh1 .inforp3:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -627,7 +643,7 @@ header {
     margin-bottom: 25px;
   }
   .informtion .inforh1 .inforp3:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 .informtion .inforh1 .inforhh5{
@@ -636,7 +652,7 @@ header {
   font-size: 28px;
 }
 .informtion .inforh1 .inforhh5:hover{
-  color: #ff4f4f;
+  color: white;
 
 }
 @media (max-width: 576px) {
@@ -646,7 +662,7 @@ header {
     font-size: 22px;
   }
   .informtion .inforh1 .inforhh5:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -657,7 +673,7 @@ header {
     font-size: 24px;
   }
   .informtion .inforh1 .inforhh5:hover{
-    color: #ff4f4f;
+    color: white;
   
   }
 }
@@ -670,7 +686,7 @@ header {
 
 }
 .informtion .inforh1 .inforp4:hover{
-  color: #ff4f4f;
+  color: white;
 }
 @media (max-width: 576px) {
   .informtion .inforh1 .inforp4{
@@ -680,16 +696,22 @@ header {
     margin-bottom: 50px;
   }
   .informtion .inforh1 .inforp4:hover{
-    color: #ff4f4f;
+    color: white;
   }
 }
 
 .informtion2{
   background: url('./Video/pexels-johnmark-smith-2726370.jpg') no-repeat center center fixed;
 
+
  /* background: url('./Video/pexels-emiliano-arano-3608311.jpg') no-repeat center center;*/
   width: 100%;
   height: 500px;
+}
+.informtion2 .infoor{
+  background: rgb(0 0 0 / 68%);
+  color: rgb(255, 255, 255);
+  min-height: 600px;
 }
 @media (max-width: 576px) {
   .informtion2{
@@ -698,6 +720,11 @@ header {
    /* background: url('./Video/pexels-emiliano-arano-3608311.jpg') no-repeat center center;*/
     width: 100%;
     height: 400px;
+  }
+  .informtion2 .infoor{
+    background: rgb(0 0 0 / 68%);
+    color: rgb(255, 255, 255);
+    min-height: 600px;
   }
   
 }
@@ -851,6 +878,12 @@ textarea.form-control {
   background: url('./Video/pexels-johnmark-smith-2726370.jpg') no-repeat center center fixed;
 }
 
+.EMAIL .emaill {
+  background: rgb(0 0 0 / 68%);
+  color: rgb(255, 255, 255);
+  min-height: 600px;
+
+}
 .btn-warning {
   color: #212529;
   background-color: #ffc107;
